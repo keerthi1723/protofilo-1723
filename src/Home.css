@@ -1,0 +1,61 @@
+.main-banner {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111418 !important;
+}
+
+.main-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Images/intro.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.welcome-banner{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+}
+
+
+button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    cursor: pointer;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(
+      0deg,
+      #20c997 0%,
+      rgba(70, 135, 252, 1) 100%
+    );
+    box-shadow: rgba(63, 94, 251, 0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70, 135, 252, 1);
+  }
+  
+  button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+  }
+  
+  button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+  }
+  
