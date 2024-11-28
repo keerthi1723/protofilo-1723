@@ -1,6 +1,7 @@
 import React from 'react';
 import './Common.css'
 import { Typewriter } from 'react-simple-typewriter'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -20,9 +21,9 @@ const Home = () => {
             />
           </h1>
           <h4 className='mt-3' style={{ color: '#20c997' }}>based in Hyderabad, Telengana.</h4>
-          <button className="button mt-5">
-            Hire Me
-          </button>
+            <Link to="/about" > 
+           <button className="button mt-5"> Hire Me</button>
+            </Link>
         </div>
       </div>
     </div>
