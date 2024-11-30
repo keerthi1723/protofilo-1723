@@ -3,10 +3,15 @@ import './Common.css'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import Button from '@mui/material/Button';
 const Skills = () => {
+  const matches = useMediaQuery('(min-width:768px)');
   return (
-    <div className="p-2 edu-banner">
+    <div className="p-2 edu-banner" style={{
+      overflowX: matches ? 'hidden' : 'hidden',
+      overflowY: matches ? 'hidden' : 'scroll',
+    }}>
       <div className="row justify-content-center">
         {/* Education Section */}
         <div className="col-md-5">

@@ -1,12 +1,18 @@
 import React from 'react'
+import useMediaQuery from '@mui/material/useMediaQuery';
 import './Common.css'
 const About = () => {
+  const matches = useMediaQuery('(min-width:768px)');
+
   return (
     <div>
-      <div className='about-banner'>
+      <div className='about-banner'   style={{
+    overflowX: matches ? 'hidden' : 'hidden',
+    overflowY: matches ? 'hidden' : 'scroll',
+  }}>
         <div className='aboutinner-banner'>
           <h5 style={{ marginLeft: '46%' }} className='element-left-align'>Know Me More</h5>
-          <div className='row mb-0 align-items-center justify-content-center'>
+          <div className='row mb-0 align-items-center justify-content-center' style={{ padding: matches ? '0' : '10px' }}>
             <div className='col-md-5'>
               <div className='mt-5'>
                 <h4 style={{ padding: '10px' }}>I'm

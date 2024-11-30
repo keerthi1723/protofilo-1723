@@ -4,9 +4,14 @@ import './Common.css'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
 const Projects = () => {
+  const matches = useMediaQuery('(min-width:768px)');
     return (
-        <div className="p-2 project-banner">
+        <div className="p-2 project-banner"   style={{
+            overflowX: matches ? 'hidden' : 'hidden',
+            overflowY: matches ? 'hidden' : 'scroll',
+          }}>
             <h5 style={{ marginLeft: '48%' }} className='element-left-align text-white mt-5'>Projects</h5>
 
             <Card sx={{ minWidth: 275, backgroundColor: "#212529" }} className="card-wrapper1 mb-3 mt-3" >
