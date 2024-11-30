@@ -222,4 +222,40 @@ a{
   .sidebar_firm:hover{
     color: #20c997 !important;
   }
+  .aboutinner-banner {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h5.element-left-align {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .innerWelcome-Banner {
+    word-wrap: break-word;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutinner-banner {
+      padding: 10px;
+      white-space: normal;
+    }
+  
+    .innerWelcome-Banner {
+      text-align: justify;
+      font-size: 0.9rem;
+    }
+  
+    h4 {
+      font-size: 1.2rem;
+    }
+  
+    .button a {
+      text-align: center;
+      display: block;
+    }
+  }
   
