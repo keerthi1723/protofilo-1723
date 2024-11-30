@@ -56,7 +56,11 @@ const About = () => {
                   </tr>
                 </tbody>
               </table>
-              <button className="button mt-2">
+              <button className="button mt-2"   style={{
+    margin: matches ? '0' : 'auto',
+    display: matches ? 'block' : 'flex',
+
+  }}>
                 <a href="/assets/files/React.jsKeerthi.pdf"  download="My_Resume.pdf">Download Resume</a>
               </button>
             </div>
