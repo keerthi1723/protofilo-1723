@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 const Projects = () => {
     return (
         <div className="p-2 project-banner">
-            <h5 style={{ marginLeft: '30%' }} className='element-left-align text-white mt-5'>Projects</h5>
+            <h5 style={{ marginLeft: '48%' }} className='element-left-align text-white mt-5'>Projects</h5>
 
             <Card sx={{ minWidth: 275, backgroundColor: "#212529" }} className="card-wrapper1 mb-3 mt-3" >
                 <CardContent>

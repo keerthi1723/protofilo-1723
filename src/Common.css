@@ -1,9 +1,8 @@
 .project-banner{
     position: relative;
     z-index: 1;
-    width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #111418 !important;
 }
 
@@ -26,12 +25,12 @@
 .card-wrapper1{
     width: 83% !important;
     border: 1px solid #20c997;
+    margin: 0 auto;
 }
 
 .edu-banner{
     position: relative;
     z-index: 1;
-    width: 100vw;
     height: 100vh;
     overflow: hidden;
     background-color: #111418 !important;
@@ -60,7 +59,6 @@
 .main-banner {
     position: relative;
     z-index: 1;
-    width: 100vw;
     height: 100vh;
     overflow: hidden;
     background-color: #111418 !important;
@@ -94,7 +92,7 @@ button {
     font-size: 16px;
     padding: 1em 3.3em;
     cursor: pointer;
-    transform: perspective(200px) rotateX(15deg);
+    transform:  rotateX(15deg);
     color: white;
     font-weight: 900;
     border: none;
@@ -110,19 +108,18 @@ button {
     border-bottom: 2px solid rgba(70, 135, 252, 1);
   }
   
-  button:hover {
+  /* button:hover {
     transform: perspective(180px) rotateX(30deg) translateY(2px);
-  }
+  } */
   
-  button:active {
+  /* button:active {
     transform: perspective(170px) rotateX(36deg) translateY(5px);
-  }
+  } */
   
 
   .about-banner {
     position: relative;
     z-index: 1;
-    width: 100vw;
     height: 100vh;
     overflow: hidden;
     background-color: #111418 !important;
@@ -146,7 +143,7 @@ button {
 
 .aboutinner-banner {
     position: absolute;
-    top: 16%;
+    top: 11%;
     color: white;
     white-space: nowrap;
 }
@@ -217,6 +214,12 @@ element {
     }
 }
 
-a:hover{
-    color: #ffff !important;
-}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+  }
+  
+  .sidebar_firm:hover{
+    color: #20c997 !important;
+  }
+  

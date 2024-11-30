@@ -5,9 +5,9 @@ const About = () => {
     <div>
       <div className='about-banner'>
         <div className='aboutinner-banner'>
-          <h5 style={{ marginLeft: '30%' }} className='element-left-align'>Know Me More</h5>
-          <div className='row mb-0 align-items-center'>
-            <div className='col-md-6'>
+          <h5 style={{ marginLeft: '46%' }} className='element-left-align'>Know Me More</h5>
+          <div className='row mb-0 align-items-center justify-content-center'>
+            <div className='col-md-5'>
               <div className='mt-5'>
                 <h4 style={{ padding: '10px' }}>I'm
                   <span className='inner-text' > Keerthi Gandham</span>,
@@ -25,7 +25,7 @@ const About = () => {
                 </h6>
               </div>
             </div>
-            <div className='col-md-6 p-2' style={{ marginTop: '6%' }}>
+            <div className='col-md-5 p-2' style={{ marginTop: '6%' }}>
               <table className="table table-striped table-dark " >
                 <tbody>
                   <tr>

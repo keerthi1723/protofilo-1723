@@ -7,10 +7,10 @@ import Button from '@mui/material/Button';
 const Skills = () => {
   return (
     <div className="p-2 edu-banner">
-      <div className="row">
+      <div className="row justify-content-center">
         {/* Education Section */}
         <div className="col-md-5">
-          <Typography variant="h5" component="div" className="mb-3 text-white">
+          <Typography variant="h5" component="div" className="mb-2 text-white text-center">
             My Education
           </Typography>
 
@@ -73,7 +73,7 @@ const Skills = () => {
 
         {/* Experience Section */}
         <div className="col-md-5">
-          <Typography variant="h5" component="div" className="mb-3 text-white">
+          <Typography variant="h5" component="div" className="mb-2 text-white text-center">
             My Experience
           </Typography>
 

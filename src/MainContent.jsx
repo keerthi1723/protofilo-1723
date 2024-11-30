@@ -11,10 +11,10 @@ const MainContent = () => {
         <div>
             <Box
                 sx={{
-                    ml: "250px",
+                    // ml: "250px",
                     height: "100vh",
                     overflowY: "auto",
-                    width: "calc(100% - 250px)",
+                    // width: "calc(100% - 250px)",
                 }}
             >
                 <Routes>
