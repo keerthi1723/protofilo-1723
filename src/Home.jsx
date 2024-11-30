@@ -20,7 +20,7 @@ const Home = () => {
               delaySpeed={1000}
             />
           </h1>
-          <h4 className='mt-3' style={{ color: '#20c997' }}>based in Hyderabad, Telengana.</h4>
+          <h4 className='mt-3' style={{ color: '#20c997' }}>based in Hyderabad, Telangana.</h4>
             <Link to="/about" > 
            <button className="button mt-5"> Hire Me</button>
             </Link>
