@@ -123,7 +123,7 @@ const Sidebar = () => {
                         <li className="social-icons-facebook mx-2">
                             <Tooltip title="Mail">
                                 <a
-                                    href="mailto:keerthigandham59@gmail.com?subject=Contact"
+                                    href="mailto:keerthigandham0509@gmail.com?subject=Contact"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
