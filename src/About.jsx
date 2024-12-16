@@ -54,7 +54,7 @@ const About = () => {
           </tr>
           <tr>
             <td>Email :</td>
-            <td className="inner-text">keerthigandham59@gmail.com</td>
+            <td className="inner-text">keerthigandham0509@gmail.com</td>
           </tr>
           <tr className='' style={{whiteSpace: 'nowrap'}}>
             <td>Mobile :</td>
